@@ -57,6 +57,4 @@ range:NSMakeRange(13, 11)];
 
 [self presentViewController:alertController animated:YES completion:nil];
 
-最终效果：
 
-http://huanghaiyan.96.lt/wp-content/uploads/2016/05/customAlert.png
