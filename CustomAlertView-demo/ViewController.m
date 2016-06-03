@@ -39,14 +39,14 @@
     //Custom Title
     NSMutableAttributedString *hogan = [[NSMutableAttributedString alloc] initWithString:@"Presenting the Hulk Hogan!"];
     [hogan addAttribute:NSFontAttributeName
-                  value:[UIFont systemFontOfSize:20]
-                  range:NSMakeRange(13, 11)];
+                  value:[UIFont systemFontOfSize:17]
+                  range:NSMakeRange(0, hogan.length)];
     [alertController setValue:hogan forKey:@"attributedTitle"];
     
     NSMutableAttributedString *hogan1 = [[NSMutableAttributedString alloc] initWithString:@"hjasdghjdfsgkfdghfdgsgdsfgdsfg"];
     [hogan1 addAttribute:NSFontAttributeName
-                  value:[UIFont systemFontOfSize:20]
-                  range:NSMakeRange(13, 11)];
+                  value:[UIFont systemFontOfSize:15]
+                  range:NSMakeRange(0, hogan1.length)];
     [alertController setValue:hogan1 forKey:@"attributedMessage"];
 
     [self presentViewController:alertController animated:YES completion:nil];
