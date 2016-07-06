@@ -1,4 +1,5 @@
 # CustomAlertView-demo
+![屏幕快照 2016-07-04 下午2.16.16.png](http://upload-images.jianshu.io/upload_images/726092-0fb8f2fe4248c6db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 自定义UIAlertController的字体颜色大小
 使用KVC的方式改变UIAlertController的样式
 
@@ -56,5 +57,5 @@ range:NSMakeRange(13, 11)];
 [alertController setValue:hogan1 forKey:@"attributedMessage"];
 
 [self presentViewController:alertController animated:YES completion:nil];
-
+![屏幕快照 2016-07-04 下午2.16.26.png](http://upload-images.jianshu.io/upload_images/726092-82f9af5c48a65656.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
